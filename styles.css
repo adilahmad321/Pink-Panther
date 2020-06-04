@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    background-image: url("Pink-Panther.png"), linear-gradient(#ff6090, #e91e63, #b0003a);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    background-attachment: fixed;
+}
+.heading{
+    padding-left: 15%;
+    font-size: 90px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.heading1{
+    font-size: 40px;
+    position: relative;
+    top: -20px;
+}
+#container{
+    width: 70vw;
+    border: 1px solid purple;
+    border-radius: 10px;
+}
+#list, .list{
+    width: 45vw;
+
+}
+.label{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.desc{
+    font-size: 20px;
+    font-family: monospace;
+    color: black;
+}
+#sel1{
+    background-color: hotpink;
+    color: black;
+}
+.btn{
+    border: 1px solid black;
+}
+.banner{
+    width: 70vw;
+}
